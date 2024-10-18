@@ -89,7 +89,7 @@ among team members.
 9. If you are attempting the extra credit you have to discuss in detail the
 implementation changes in code and performance changes in your algo-
 rithms.
-###Submission
+### Submission
 You will be uploading the following on Canvas by midnight on Dec 8th (Sunday):
 3
 • Your final report in a single PDF file. Only one report is needed for a
