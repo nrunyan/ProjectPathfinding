@@ -1,6 +1,6 @@
 # ProjectPathfinding
 CS361
-Questions avant of starting:
+Questions ahead of starting:
 Can the robot move to diagonal nodes or is it just vertical and horizontal moves allowed?
 Are we allowed to use existing libraries such as the Math library in java?
 
