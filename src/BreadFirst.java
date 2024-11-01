@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class Giraph {
+class BreadFirst {
 
     private static void printPath(List<Integer> path)
     {
@@ -26,8 +26,8 @@ class Giraph {
         return true;
     }
 
-    private static void findPaths(List<List<Integer> > adjecency,
-                                  int start, int end, int v)
+    public static void findPaths(List<List<Integer> > adjecency,
+                                  int start, int end)
     {
 
         Queue<List<Integer> > queue = new LinkedList<>();
@@ -60,30 +60,6 @@ class Giraph {
         }
     }
 
-    // Driver code
-    public static void main(String[] args)
-    {
-        List<List<Integer> > g = new ArrayList<>();
-        int v = 4;
-        for(int i = 0; i < 4; i++)
-        {
-            g.add(new ArrayList<>());
-        }
-
-
-        g.get(0).add(3);
-        g.get(0).add(1);
-        g.get(0).add(2);
-        g.get(1).add(3);
-        g.get(2).add(0);
-        g.get(2).add(1);
-        int start = 2, dst = 3;
-        System.out.println("path from src " + start +
-                " to dst " + dst + " are ");
-
-        // Function for finding the paths
-        findPaths(g, start, dst, v);
-    }
 }
 
 
