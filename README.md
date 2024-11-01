@@ -1,8 +1,10 @@
 # ProjectPathfinding
 CS361
 Questions ahead of starting:
-Can the robot move to diagonal nodes or is it just vertical and horizontal moves allowed?
-Are we allowed to use existing libraries such as the Math library in java?
+Can the robot move to diagonal nodes or is it just vertical and horizontal moves
+allowed? Yes
+Probably no bogo sort :( ask instructor
+Are we allowed to use existing libraries such as the Math library in java? Yes.
 
 ## Project Description
 Searching is at the core of a lot of algorithms. The goal of this project is to
@@ -45,7 +47,7 @@ cess.
 (c) Execution Time: The time taken by each algorithm to complete the
 task. You should exclude the I/O time when benchmarking. In other
 words, if your program is reading in the input from a file, your timer
-should start after all the data is loaded into the main memory.
+should start after all the data is loaded into the Main memory.
 (d) Memory Usage: The number of nodes explored during the search.
 2. Your performance metrics should be tested with the following scenarios:
 (a) Case with no obstacles and several items.
