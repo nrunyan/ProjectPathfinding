@@ -20,7 +20,7 @@ collected. The goal is to design a program that can find the shortest path from
 a starting point to collect all items using various graph search algorithms. You
 will implement and compare the performance of different algorithms.
 ## 1.2 Requirements
-1.2.1 Graph Representation:
+1.2.1 GirAPH Representation:
 • Represent the warehouse grid as a graph where:
 – Each cell corresponds to a node.
 – Each possible move corresponds to edges.
