@@ -7,14 +7,12 @@ public class Node {
         this.value = null;
         this.next = null;
         this.prev = null;
-        this.index = -1;
 
     }
     public Node(Object value,Node prev){
         this.value = value;
         this.prev = prev;
         this.next = null;
-        this.index = prev.index+1;
     }
 
     public void setNext(Node next) {
@@ -23,9 +21,6 @@ public class Node {
 
     public void setPrev(Node prev) {
         this.prev = prev;
-    }
-    public int getIndex(){
-        return this.index;
     }
     public Object getValue(){
         return this.value;
