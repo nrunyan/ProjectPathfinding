@@ -30,4 +30,14 @@ public class ReadConfig {
         }
         return chars;
     }
+
+//    public static void main(String[] args) {
+//        char[][] twoD = parseFile("testCases/simple.txt");
+//        for (int i = 0; i < 5; i++){
+//            for (int j = 0; j < 7 ; j++){
+//                System.out.print(twoD[i][j]);
+//            }
+//            System.out.println("");
+//        }
+//    }
 }
