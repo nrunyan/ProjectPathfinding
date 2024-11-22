@@ -1,10 +1,7 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class ParseBoard {
-    private List<List<Integer>> adjecency=new ArrayList<>();
+    public List<List<Integer>> adjecency=new ArrayList<>();
     private int amountOfNodes;
     private int colunmSize;
     private int rowSize;
