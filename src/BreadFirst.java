@@ -26,9 +26,7 @@ class BreadFirst {
         return true;
     }
 
-    public static void findPaths(List<List<Integer> > adjecency,
-                                  int start, int end)
-    {
+    public static void findPaths(List<List<Integer> > adjecency, int start, int end) {
 
         Queue<List<Integer> > queue = new LinkedList<>();
 
