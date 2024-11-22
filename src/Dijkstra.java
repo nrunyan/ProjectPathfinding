@@ -44,8 +44,7 @@ public class Dijkstra {
     }
     void printSolution(int dist[],int size)
     {
-        System.out.println(
-                "Node     distance from 0");
+        System.out.println("Node     distance from 0");
         for (int i = 0; i < size; i++)
             System.out.println(i + " \t\t " + dist[i]);
     }
